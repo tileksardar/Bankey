@@ -10,6 +10,8 @@
 		9C3C855028743DED00BAC07E /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C854F28743DED00BAC07E /* OnboardingContainerViewController.swift */; };
 		9C3C85522874488200BAC07E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C85512874488200BAC07E /* OnboardingViewController.swift */; };
 		9C6425A1287D916100BFF4F7 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6425A0287D916100BFF4F7 /* AccountSummaryViewController.swift */; };
+		9C6425A3287DA19100BFF4F7 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6425A2287DA19100BFF4F7 /* AccountSummaryHeaderView.swift */; };
+		9C6425A5287DA20C00BFF4F7 /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6425A4287DA20C00BFF4F7 /* AccountSummaryHeaderView.xib */; };
 		9C945E8A287705DE00C17799 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C945E89287705DE00C17799 /* DummyViewController.swift */; };
 		9C9C8943286EF2AC00635FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C8942286EF2AC00635FA8 /* AppDelegate.swift */; };
 		9C9C8947286EF2AC00635FA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C8946286EF2AC00635FA8 /* LoginViewController.swift */; };
@@ -25,6 +27,8 @@
 		9C3C854F28743DED00BAC07E /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		9C3C85512874488200BAC07E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		9C6425A0287D916100BFF4F7 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
+		9C6425A2287DA19100BFF4F7 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
+		9C6425A4287DA20C00BFF4F7 /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
 		9C945E89287705DE00C17799 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		9C9C893F286EF2AC00635FA8 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9C8942286EF2AC00635FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				9C6425A0287D916100BFF4F7 /* AccountSummaryViewController.swift */,
+				9C6425A2287DA19100BFF4F7 /* AccountSummaryHeaderView.swift */,
+				9C6425A4287DA20C00BFF4F7 /* AccountSummaryHeaderView.xib */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6425A5287DA20C00BFF4F7 /* AccountSummaryHeaderView.xib in Resources */,
 				9C9C894F286EF2AD00635FA8 /* LaunchScreen.storyboard in Resources */,
 				9C9C894C286EF2AD00635FA8 /* Assets.xcassets in Resources */,
 			);
@@ -198,6 +205,7 @@
 				9CC07717287C5B8000255FBB /* UIViewController+Utils.swift in Sources */,
 				9C9C8959286EF91B00635FA8 /* LoginView.swift in Sources */,
 				9CC07715287C2B5900255FBB /* LocalState.swift in Sources */,
+				9C6425A3287DA19100BFF4F7 /* AccountSummaryHeaderView.swift in Sources */,
 				9C945E8A287705DE00C17799 /* DummyViewController.swift in Sources */,
 				9C9C8947286EF2AC00635FA8 /* LoginViewController.swift in Sources */,
 				9C3C85522874488200BAC07E /* OnboardingViewController.swift in Sources */,
