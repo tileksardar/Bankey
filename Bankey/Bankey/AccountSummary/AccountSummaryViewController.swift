@@ -79,6 +79,23 @@ extension AccountSummaryViewController: UITableViewDataSource {
 extension AccountSummaryViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
+<<<<<<< HEAD
+=======
+    }
+}
+extension AccountSummaryViewController {
+    private func fetchData() {
+        let savings = AccountSummaryCell.ViewModel(accountType: .Banking,
+                                                   accountName: "Basic Savings")
+        let visa = AccountSummaryCell.ViewModel(accountType: .CreditCard,
+                                                accountName: "Visa Avion Card")
+        let investment = AccountSummaryCell.ViewModel(accountType: .Investment,
+                                                      accountName: "Tax-Free Saver")
+        
+        accounts.append(savings)
+        accounts.append(visa)
+        accounts.append(investment)
+>>>>>>> eefa2ece8a9a34774b538040bc69cf2a59dcb22d
     }
 }
 extension AccountSummaryViewController {
