@@ -25,9 +25,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         loginViewController.delegate = self
         onboardingViewController.delegate = self
+        registerForNotifications()
    
         displayLogin()
         return true
+    }
+    private func registerForNotifications(){
+        NotificationCenter.default.addObserver(self, selector: #selector(didLogout), name: .logout, object: nil)
     }
     private func displayLogin() {
         setRootViewController(loginViewController)
@@ -61,7 +65,7 @@ extension AppDelegate {
         window.rootViewController = vc
         window.makeKeyAndVisible()
         UIView.transition(with: window,
-                          duration: 1.0,
+                          duration: 0.8,
                           options: .transitionCrossDissolve,
                           animations: nil,
                           completion: nil)
@@ -80,7 +84,7 @@ extension AppDelegate: OnboardingContainerViewControllerDelegate{
     }
 }
 extension AppDelegate: LogoutDelegate{
-    func didLogout() {
+    @objc func didLogout() {
         setRootViewController(loginViewController)
     }
 }

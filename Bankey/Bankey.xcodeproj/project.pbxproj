@@ -22,9 +22,12 @@
 		9C9C894C286EF2AD00635FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C894B286EF2AD00635FA8 /* Assets.xcassets */; };
 		9C9C894F286EF2AD00635FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C894D286EF2AD00635FA8 /* LaunchScreen.storyboard */; };
 		9C9C8959286EF91B00635FA8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C8958286EF91B00635FA8 /* LoginView.swift */; };
+		9C9D69792893BB9600B6FDD8 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D69782893BB9600B6FDD8 /* NSNotificationName.swift */; };
+		9C9D697B2893BF8500B6FDD8 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D697A2893BF8500B6FDD8 /* UITextField+SecureToggle.swift */; };
 		9CC07715287C2B5900255FBB /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC07714287C2B5900255FBB /* LocalState.swift */; };
 		9CC07717287C5B8000255FBB /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC07716287C5B8000255FBB /* UIViewController+Utils.swift */; };
 		9CC07719287C5E4B00255FBB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC07718287C5E4B00255FBB /* MainViewController.swift */; };
+		9CCA5E632897F88E00CB73B2 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA5E622897F88E00CB73B2 /* ShakeyBellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +59,12 @@
 		9C9C894E286EF2AD00635FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C9C8950286EF2AD00635FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9C8958286EF91B00635FA8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9C9D69782893BB9600B6FDD8 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		9C9D697A2893BF8500B6FDD8 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		9CC07714287C2B5900255FBB /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		9CC07716287C5B8000255FBB /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		9CC07718287C5E4B00255FBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9CCA5E622897F88E00CB73B2 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,7 @@
 				9C3C854E28743D8800BAC07E /* Onboarding */,
 				9C64259F287D90E500BFF4F7 /* AccountSummary */,
 				9CC07713287C2B4400255FBB /* Utils */,
+				9CCA5E612897F84800CB73B2 /* Components */,
 				9C9C8956286EF83B00635FA8 /* Files */,
 			);
 			path = Bankey;
@@ -182,8 +189,18 @@
 				9CC07716287C5B8000255FBB /* UIViewController+Utils.swift */,
 				9C058D44288192DC008C5526 /* DecimalUtil.swift */,
 				9C058D4628819335008C5526 /* CurrencyFormatter.swift */,
+				9C9D69782893BB9600B6FDD8 /* NSNotificationName.swift */,
+				9C9D697A2893BF8500B6FDD8 /* UITextField+SecureToggle.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CCA5E612897F84800CB73B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9CCA5E622897F88E00CB73B2 /* ShakeyBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,10 +317,13 @@
 				9C9C8959286EF91B00635FA8 /* LoginView.swift in Sources */,
 				9CC07715287C2B5900255FBB /* LocalState.swift in Sources */,
 				9C058D45288192DC008C5526 /* DecimalUtil.swift in Sources */,
+				9C9D697B2893BF8500B6FDD8 /* UITextField+SecureToggle.swift in Sources */,
 				9C6425A3287DA19100BFF4F7 /* AccountSummaryHeaderView.swift in Sources */,
 				9C058D4728819335008C5526 /* CurrencyFormatter.swift in Sources */,
 				9C945E8A287705DE00C17799 /* DummyViewController.swift in Sources */,
+				9C9D69792893BB9600B6FDD8 /* NSNotificationName.swift in Sources */,
 				9C9C8947286EF2AC00635FA8 /* LoginViewController.swift in Sources */,
+				9CCA5E632897F88E00CB73B2 /* ShakeyBellView.swift in Sources */,
 				9C058D4328815CC7008C5526 /* AccountSummaryCell.swift in Sources */,
 				9C3C85522874488200BAC07E /* OnboardingViewController.swift in Sources */,
 				9CC07719287C5E4B00255FBB /* MainViewController.swift in Sources */,
